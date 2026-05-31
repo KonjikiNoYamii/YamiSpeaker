@@ -70,4 +70,6 @@ dependencies {
     implementation(
         "androidx.compose.material3:material3"
     )
+
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 }

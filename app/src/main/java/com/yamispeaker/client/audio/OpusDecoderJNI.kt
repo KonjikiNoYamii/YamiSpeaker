@@ -1,4 +1,4 @@
-package com.yamispeaker.client.audio.OpusDecoderJNI
+package com.yamispeaker.client.audio
 
 class OpusDecoderJNI {
 
