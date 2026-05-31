@@ -1,0 +1,45 @@
+{
+  "buildFiles": [
+    "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/_deps/libopus-src/CMakeLists.txt",
+    "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opus::@566e095ddf3daf3efb8e": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "opus",
+      "output": "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/_deps/libopus-build/libopus.a"
+    },
+    "opus_wrapper::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "opus_wrapper",
+      "output": "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/build/intermediates/cxx/Debug/5l2j2t2k/obj/x86_64/libopus_wrapper.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

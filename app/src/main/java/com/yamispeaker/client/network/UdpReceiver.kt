@@ -1,82 +1,60 @@
 package com.yamispeaker.client.network
 
-import android.os.Process
 import com.yamispeaker.client.audio.AudioPlayer
+import com.yamispeaker.client.audio.OpusDecoderJNI
 import java.net.DatagramPacket
 import java.net.DatagramSocket
-import java.net.SocketException
+import java.util.Arrays
 import kotlin.concurrent.thread
 
-class UdpReceiver(private val audioPlayer: AudioPlayer) {
+class UdpReceiver(
+        private val audioPlayer: AudioPlayer,
+        private val decoder: OpusDecoderJNI
+) {
 
     private var running = false
     private var socket: DatagramSocket? = null
-    private var workerThread: Thread? = null
 
-    private val port = 5000
-
+    // mulai thread UDP: terima packet → decode Opus → tulis PCM ke AudioTrack
     fun start() {
-
         if (running) return
         running = true
 
-        workerThread =
-                thread(name = "UdpReceiver") {
+        thread(name = "UdpReceiver") {
+            socket = DatagramSocket(5000)
+            val buf = ByteArray(1500)
+            val pcmOut = ShortArray(1920)
 
-                    // 🎧 prioritaskan thread audio
-                    Process.setThreadPriority(Process.THREAD_PRIORITY_URGENT_AUDIO)
+            while (running) {
+                val packet = DatagramPacket(buf, buf.size)
+                socket?.receive(packet)
 
-                    try {
-                        socket = DatagramSocket(port)
-                        socket?.reuseAddress = true
+                // skip 4 byte header (seq + timestamp)
+                val opusPayload = Arrays.copyOfRange(
+                        packet.data, 4, packet.length
+                )
 
-                        val buffer = ByteArray(4096)
+                val pcmSamples = decoder.decode(opusPayload, opusPayload.size, pcmOut)
 
-                        while (running) {
-
-                            val packet = DatagramPacket(buffer, buffer.size)
-
-                            try {
-                                socket?.receive(packet)
-                            } catch (e: SocketException) {
-                                // socket ditutup saat stop()
-                                break
-                            }
-
-                            if (!running) break
-
-                            val size = packet.length
-
-                            if (size > 0) {
-
-                                val audioData = packet.data.copyOf(size)
-
-                                audioPlayer.write(audioData)
-                            }
-                        }
-                    } catch (e: Exception) {
-                        e.printStackTrace()
-                    } finally {
-                        try {
-                            socket?.close()
-                        } catch (_: Exception) {}
-
-                        socket = null
+                if (pcmSamples > 0) {
+                    val pcmBytes = ByteArray(pcmSamples * 2 * 2) // stereo short→byte
+                    var idx = 0
+                    for (i in 0 until pcmSamples * 2) {
+                        val s = pcmOut[i].toInt()
+                        pcmBytes[idx++] = (s and 0xFF).toByte()
+                        pcmBytes[idx++] = (s shr 8).toByte()
                     }
+                    audioPlayer.write(pcmBytes)
                 }
+            }
+
+            socket?.close()
+        }
     }
 
+    // hentikan receiver
     fun stop() {
-
         running = false
-
-        try {
-            socket?.close()
-        } catch (_: Exception) {}
-
-        socket = null
-
-        workerThread?.interrupt()
-        workerThread = null
+        socket?.close()
     }
 }

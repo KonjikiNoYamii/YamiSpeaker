@@ -1,0 +1,516 @@
+The target system is: Android - 1 - x86_64
+The host system is: Linux - 6.14.0-29-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=x86_64-none-linux-android24 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;
+Id flags: -c;--target=x86_64-none-linux-android24 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_8975c && [1/2] Building C object CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Target: x86_64-none-linux-android24
+Thread model: posix
+InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android24 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o -x c /home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_8975c
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Target: x86_64-none-linux-android24
+Thread model: posix
+InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_8975c /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  implicit include dirs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_8975c && [1/2] Building C object CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+  ignore line: [Target: x86_64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android24 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o -x c /home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_8975c]
+  ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+  ignore line: [Target: x86_64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_8975c /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8975c] ==> ignore
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o] ==> obj [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_8975c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o] ==> obj [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+  remove lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+  implicit dirs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_22552 && [1/2] Building CXX object CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Target: x86_64-none-linux-android24
+Thread model: posix
+InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android24 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_22552
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Target: x86_64-none-linux-android24
+Thread model: posix
+InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_22552 /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  implicit include dirs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_22552 && [1/2] Building CXX object CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+  ignore line: [Target: x86_64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android24 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_22552]
+  ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+  ignore line: [Target: x86_64-none-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_22552 /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24 -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_22552] ==> ignore
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o] ==> obj [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_22552.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o] ==> obj [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+  remove lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtbegin_dynamic.o;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/crtend_android.o]
+  implicit dirs: [/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/x86_64;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/goldendarkness/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_38501 && [1/2] Building C object CMakeFiles/cmTC_38501.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_38501
+
+
+
+Determining if the alloca exist passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_3d430 && [1/2] Building C object CMakeFiles/cmTC_3d430.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3d430
+
+
+File /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_d4b84 && [1/2] Building C object CMakeFiles/cmTC_d4b84.dir/CheckFunctionExists.c.o
+/home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^
+<command line>:3:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+    3 | #define CHECK_FUNCTION_EXISTS floor
+      |                               ^
+/home/goldendarkness/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+    3 | #define CHECK_FUNCTION_EXISTS floor
+      |                               ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d4b84
+
+
+
+Determining if the lrintf exist passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_9a2e5 && [1/2] Building C object CMakeFiles/cmTC_9a2e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9a2e5
+
+
+File /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrintf
+  return ((int*)(&lrintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lrint exist passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_92d08 && [1/2] Building C object CMakeFiles/cmTC_92d08.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_92d08
+
+
+File /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrint
+  return ((int*)(&lrint))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_4a376 && [1/2] Building C object CMakeFiles/cmTC_4a376.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4a376
+
+
+
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_090ef && [1/2] Building C object CMakeFiles/cmTC_090ef.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_090ef
+
+
+
+Performing C SOURCE FILE Test SSE1_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_e0441 && [1/2] Building C object CMakeFiles/cmTC_e0441.dir/src.c.o
+[2/2] Linking C executable cmTC_e0441
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_069d9 && [1/2] Building C object CMakeFiles/cmTC_069d9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_069d9
+
+
+
+Performing C SOURCE FILE Test SSE2_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_03e4c && [1/2] Building C object CMakeFiles/cmTC_03e4c.dir/src.c.o
+[2/2] Linking C executable cmTC_03e4c
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_2eae0 && [1/2] Building C object CMakeFiles/cmTC_2eae0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2eae0
+
+
+
+Performing C SOURCE FILE Test SSE4_1_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_18af4 && [1/2] Building C object CMakeFiles/cmTC_18af4.dir/src.c.o
+[2/2] Linking C executable cmTC_18af4
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_a3fe5 && [1/2] Building C object CMakeFiles/cmTC_a3fe5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a3fe5
+
+
+
+Performing C SOURCE FILE Test AVX_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_68728 && [1/2] Building C object CMakeFiles/cmTC_68728.dir/src.c.o
+[2/2] Linking C executable cmTC_68728
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FAST_MATH_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_29f23 && [1/2] Building C object CMakeFiles/cmTC_29f23.dir/src.c.o
+[2/2] Linking C executable cmTC_29f23
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test STACK_PROTECTOR_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_49ca8 && [1/2] Building C object CMakeFiles/cmTC_49ca8.dir/src.c.o
+[2/2] Linking C executable cmTC_49ca8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HIDDEN_VISIBILITY_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_5fec4 && [1/2] Building C object CMakeFiles/cmTC_5fec4.dir/src.c.o
+[2/2] Linking C executable cmTC_5fec4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wall_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_e35f0 && [1/2] Building C object CMakeFiles/cmTC_e35f0.dir/src.c.o
+[2/2] Linking C executable cmTC_e35f0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test W_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_b4f4d && [1/2] Building C object CMakeFiles/cmTC_b4f4d.dir/src.c.o
+[2/2] Linking C executable cmTC_b4f4d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wstrictprototypes_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_e3677 && [1/2] Building C object CMakeFiles/cmTC_e3677.dir/src.c.o
+[2/2] Linking C executable cmTC_e3677
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wextra_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_bf960 && [1/2] Building C object CMakeFiles/cmTC_bf960.dir/src.c.o
+[2/2] Linking C executable cmTC_bf960
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wcastalign_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_2979c && [1/2] Building C object CMakeFiles/cmTC_2979c.dir/src.c.o
+[2/2] Linking C executable cmTC_2979c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wnestedexterns_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_74c22 && [1/2] Building C object CMakeFiles/cmTC_74c22.dir/src.c.o
+[2/2] Linking C executable cmTC_74c22
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test Wshadow_SUPPORTED succeeded with the following output:
+Change Dir: /home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja cmTC_82008 && [1/2] Building C object CMakeFiles/cmTC_82008.dir/src.c.o
+[2/2] Linking C executable cmTC_82008
+
+
+Source file was:
+int main(void) { return 0; }

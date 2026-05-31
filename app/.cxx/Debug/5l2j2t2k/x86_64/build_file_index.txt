@@ -1,0 +1,2 @@
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64/_deps/libopus-src/CMakeLists.txt
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/src/main/jni/CMakeLists.txt

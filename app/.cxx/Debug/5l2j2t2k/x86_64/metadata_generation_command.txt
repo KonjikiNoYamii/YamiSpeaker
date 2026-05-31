@@ -1,0 +1,18 @@
+                        -H/home/goldendarkness/Documents/YamiSpeaker/android-client/app/src/main/jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=/home/goldendarkness/Android/sdk/ndk/28.2.13676358
+-DCMAKE_ANDROID_NDK=/home/goldendarkness/Android/sdk/ndk/28.2.13676358
+-DCMAKE_TOOLCHAIN_FILE=/home/goldendarkness/Android/sdk/ndk/28.2.13676358/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/goldendarkness/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/build/intermediates/cxx/Debug/5l2j2t2k/obj/x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/goldendarkness/Documents/YamiSpeaker/android-client/app/build/intermediates/cxx/Debug/5l2j2t2k/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/x86_64
+-GNinja
+                        Build command args: []
+                        Version: 2

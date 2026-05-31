@@ -1,0 +1,14 @@
+# Target labels
+ libopus-populate
+# Source files and their labels
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/CMakeFiles/libopus-populate
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/CMakeFiles/libopus-populate.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/CMakeFiles/libopus-populate-complete.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-build.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-configure.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-download.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-install.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-mkdir.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-patch.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-test.rule
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-update.rule

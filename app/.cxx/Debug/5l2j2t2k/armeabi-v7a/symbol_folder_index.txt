@@ -1,0 +1,1 @@
+/home/goldendarkness/Documents/YamiSpeaker/android-client/app/build/intermediates/cxx/Debug/5l2j2t2k/obj/armeabi-v7a

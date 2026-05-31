@@ -1,0 +1,21 @@
+# ninja log v5
+0	26	1780219320444743712	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-mkdir	98dc043e938317d1
+0	26	1780219320444743712	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-mkdir	98dc043e938317d1
+26	3687	1780219324105575131	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-download	cc50634eed5b31d
+26	3687	1780219324105575131	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-download	cc50634eed5b31d
+3687	3692	1780219324111575188	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-update	4c479f0c0354bda9
+3687	3692	1780219324111575188	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-update	4c479f0c0354bda9
+3693	3698	1780219324117575245	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-patch	66df007311b36b5a
+3693	3698	1780219324117575245	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-patch	66df007311b36b5a
+3699	3704	1780219324122575293	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-configure	254ad135f05a2363
+3699	3704	1780219324122575293	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-configure	254ad135f05a2363
+3704	3709	1780219324127575341	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-build	c2972d6421d47212
+3704	3709	1780219324127575341	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-build	c2972d6421d47212
+3709	3715	1780219324135078245	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-install	1c0e8c28e727fb1b
+3709	3715	1780219324135078245	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-install	1c0e8c28e727fb1b
+3716	3721	1780219324139575455	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-test	dd12ed92613ccd84
+3716	3721	1780219324139575455	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-test	dd12ed92613ccd84
+3721	3729	1780219324147575532	CMakeFiles/libopus-populate-complete	12353515f345b534
+3721	3729	1780219324147575532	libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-done	12353515f345b534
+3721	3729	1780219324147575532	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/CMakeFiles/libopus-populate-complete	12353515f345b534
+3721	3729	1780219324147575532	/home/goldendarkness/Documents/YamiSpeaker/android-client/app/.cxx/Debug/5l2j2t2k/armeabi-v7a/_deps/libopus-subbuild/libopus-populate-prefix/src/libopus-populate-stamp/libopus-populate-done	12353515f345b534
