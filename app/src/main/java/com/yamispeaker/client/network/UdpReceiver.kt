@@ -4,42 +4,79 @@ import android.os.Process
 import com.yamispeaker.client.audio.AudioPlayer
 import java.net.DatagramPacket
 import java.net.DatagramSocket
+import java.net.SocketException
 import kotlin.concurrent.thread
 
 class UdpReceiver(private val audioPlayer: AudioPlayer) {
 
     private var running = false
     private var socket: DatagramSocket? = null
+    private var workerThread: Thread? = null
 
-    // mulai thread UDP, terima packet → kirim ke AudioPlayer
+    private val port = 5000
+
     fun start() {
 
         if (running) return
         running = true
 
-        thread(name = "UdpReceiver") {
-            Process.setThreadPriority(Process.THREAD_PRIORITY_URGENT_AUDIO)
+        workerThread =
+                thread(name = "UdpReceiver") {
 
-            socket = DatagramSocket(5000)
-            val buffer = ByteArray(4096)
-            while (running) {
+                    // 🎧 prioritaskan thread audio
+                    Process.setThreadPriority(Process.THREAD_PRIORITY_URGENT_AUDIO)
 
-                val packet = DatagramPacket(buffer, buffer.size)
+                    try {
+                        socket = DatagramSocket(port)
+                        socket?.reuseAddress = true
 
-                socket?.receive(packet)
+                        val buffer = ByteArray(4096)
 
-                val audioData = packet.data.copyOf(packet.length)
+                        while (running) {
 
-                audioPlayer.write(audioData)
-            }
+                            val packet = DatagramPacket(buffer, buffer.size)
 
-            socket?.close()
-        }
+                            try {
+                                socket?.receive(packet)
+                            } catch (e: SocketException) {
+                                // socket ditutup saat stop()
+                                break
+                            }
+
+                            if (!running) break
+
+                            val size = packet.length
+
+                            if (size > 0) {
+
+                                val audioData = packet.data.copyOf(size)
+
+                                audioPlayer.write(audioData)
+                            }
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    } finally {
+                        try {
+                            socket?.close()
+                        } catch (_: Exception) {}
+
+                        socket = null
+                    }
+                }
     }
 
-    // hentikan receiver + tutup socket
     fun stop() {
+
         running = false
-        socket?.close()
+
+        try {
+            socket?.close()
+        } catch (_: Exception) {}
+
+        socket = null
+
+        workerThread?.interrupt()
+        workerThread = null
     }
 }
